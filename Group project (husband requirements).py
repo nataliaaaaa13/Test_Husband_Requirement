@@ -35,7 +35,79 @@ def test_husband_requirements():
                     if jewelry in ["yes", "y"]:
                         gym = input("Do you workout?\n")
                         if gym in ["yes", "y"]:
-                            print("Congrats, you qualify to be Nati's husband!!")
+                            fulfillement = input("Do you think being personally fulfilled is important?")
+                            if fulfillement in ["yes", "y"]:
+                                communication = input("Do you value open and truthful communication?")
+                                if communication in ["yes", "y"]:
+                                    adventure = input("Are you willing to try new experiences and get out of your comfort zone?")
+                                    if adventure in ["yes", "y"]:
+                                        eatinghabits = input("Do you have healthy eating habits?")
+                                        if eatinghabits in ["yes","y"]:
+                                            reading = input("Do you like reading?")
+                                            if reading in ["yes", "y"]:
+                                                theatre = input("Do you like going to the theatre?")
+                                                if theatre in ["yes", "y"]:
+                                                    manners = input("Do you have good manners?")
+                                                    if manners in ["yes", "y"]:
+                                                        sports = input("Do you play or used to play any sports?")
+                                                        if sports in ["yes", "y"]:
+                                                            movies = input("Do you like old movies?")
+                                                            if movies in ["yes", "y"]:
+                                                                music = input("Do you like classical music?")
+                                                                if music in ["yes", "y"]:
+                                                                    humor = input("Do you like dark humor?")
+                                                                    if humor in ["yes", "y"]:
+                                                                        friends = input("Do you have a healthy close group of friends?")
+                                                                        if friends in ["yes", "y"]:
+                                                                            murcia = input("Do you like Murcia?")
+                                                                            if murcia in ["yes", "y"]:
+                                                                                religion = input("Do you believe in God?")
+                                                                                if religion in ["yes", "y"]:
+                                                                                    growth = input("Do you seek personal growth?")
+                                                                                    if growth in ["yes", "y"]:
+                                                                                        relationship = input("Do you see yourself in a long-term relationship?")
+                                                                                        if relationship in ["yes", "y"]:
+                                                                                            children = input("Do you want to have kids?")
+                                                                                            if children in ["yes", "y"]:
+                                                                                                animals = input("Do you want to have a dog?")
+                                                                                                if animals in ["yes","y"]:
+                                                                                                    print("Congrats, you qualify to be Nati's husband!!")
+                                                                                                else:
+                                                                                                    print("Sorry, you don't qualify")
+                                                                                            else:
+                                                                                                print("Sorry, you don't qualify")
+                                                                                        else:
+                                                                                            print("Sorry, you don't qualify")
+                                                                                    else:
+                                                                                        print("Sorry, you don't qualify")
+                                                                                else:
+                                                                                    print("Sorry, you don't qualify")
+                                                                            else:
+                                                                                print("Sorry, you don't qualify")
+                                                                        else:
+                                                                            print("Sorry, you don't qualify")
+                                                                    else:
+                                                                        print("Sorry, you don't qualify")
+                                                                else:
+                                                                    print("Sorry, you don't qualify")
+                                                            else:
+                                                                print("Sorry, you don't qualify")
+                                                        else:
+                                                            print("Sorry, you don't qualify")
+                                                    else:
+                                                        print("Sorry, you don't qualify")
+                                                else:
+                                                    print("Sorry, you don't qualify")
+                                            else:
+                                                print("Sorry, you don't qualify")
+                                        else:
+                                            print("Sorry, you don't qualify")
+                                    else:
+                                        print("Sorry, you don't qualify")
+                                else:
+                                    print("Sorry, you don't qualify")
+                            else:
+                                print("Sorry, you don't qualify")
                         else:
                             print("Sorry, you don't qualify")
                     else:
